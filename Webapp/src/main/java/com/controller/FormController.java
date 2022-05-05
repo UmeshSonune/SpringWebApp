@@ -29,6 +29,11 @@ public class FormController {
 		return "complexform";
 	}
 	
+	@RequestMapping ("/materialALL")
+	public String showmaterialform() {
+		return "materialALL";
+	}
+	
 	
 	
 	@RequestMapping(path="/processform",method =RequestMethod.POST)

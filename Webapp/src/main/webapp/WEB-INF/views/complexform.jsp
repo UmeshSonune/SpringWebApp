@@ -8,10 +8,23 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<!-- <!-- --------------------------------------------------------------------------------- -->
+<!-- ------------------------------------------------------------------------------------------- -->
+<!-- --------------------------------------------------------------------------------------------- -->
 <!-- Bootstrap CSS -->
+<!-- diresct link of STATIC css and style -->
+<!-- style and css IMPORTANT  -->
+
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<link href ="<c:url value="resources/css/complexform.css" /> rel="stylesheet"  type="text/css" />
-<link rel="stylesheet" type="text/css" href="resources/css/complexform.css" />
+<%-- <link href ="<c:url value="resources/css/complexform.css" /> rel="stylesheet"  type="text/css" /> --%>
+ <link rel="stylesheet" type="text/css" href="resources/css/complexform.css" /> 
+<!--  <script type="text/javascript" src="path-to-javascript-file.js"></script> -->
+
+<!-- ------------------------------------------------------------------------------------------ -->
+<!-- <!-- b--------------------------------------------------------------------------------- -->
+<!-- ------------------------------------------------------------------------------------------- -->
+
+
 <title>Hello, world!</title>
 </head>
 <body>
@@ -21,7 +34,7 @@
 				class="row d-flex justify-content-center align-items-center h-100">
 				<div class="col-12">
 					<div class="card card-registration card-registration-2"
-						style="border-radius: 15px;">
+						style="border-radius: 15px">
 						<div class="card-body p-0">
 							<div class="row g-0">
 								<div class="col-lg-6">
