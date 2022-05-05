@@ -25,8 +25,8 @@ background: -webkit-linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 
 background: linear-gradient(to right, rgba(161, 196, 253, 1), rgba(194, 233, 251, 1))
 }
 
-.bg-indigo {
-background-color: #4835d4;
+.bg-indigo,row g-0,card-body p-0 {
+background-color: rgb(0, 128, 64);
 }
 @media (min-width: 992px) {
 .card-registration-2 .bg-indigo {
