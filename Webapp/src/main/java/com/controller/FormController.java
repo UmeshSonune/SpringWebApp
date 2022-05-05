@@ -20,8 +20,16 @@ public class FormController {
 	private UserService userService;
 	@RequestMapping ("/register")
 	public String showForm() {
-		return "/register";
+		return "register";
 	}
+	
+	
+	@RequestMapping ("/complexform")
+	public String showComplexForm() {
+		return "complexform";
+	}
+	
+	
 	
 	@RequestMapping(path="/processform",method =RequestMethod.POST)
 	public String processesForm(@ModelAttribute User user,Model model) {
@@ -37,7 +45,7 @@ public class FormController {
 
 	public FormController() {
 		super();
-		// TODO Auto-generated constructor stub
+
 	}
 
 	public FormController(UserService userService) {
